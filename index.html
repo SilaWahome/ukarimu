@@ -80,6 +80,22 @@
       border-radius: 20px;
       box-shadow: 0 6px 15px rgba(0,0,0,0.1);
     }
+    .map-section .btn-directions {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.5rem;
+      background: #1976d2;
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .map-section .btn-directions:hover {
+      background: #125a9c;
+      transform: translateY(-3px);
+    }
     footer {
       text-align: center;
       padding: 2rem 1rem;
@@ -151,6 +167,8 @@
     <div class="section map-section">
       <h2>📍 Venue Location</h2>
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3142.02007840475!2d37.04359864!3d-1.44598259!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f7674c24dc2e7%3A0x2669cdc498e23f69!2sUkarimu%20House!5e1!3m2!1sen!2ske!4v1755886970245!5m2!1sen!2ske" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <br>
+      <a class="btn-directions" href="https://www.google.com/maps/dir/?api=1&destination=Ukarimu+House" target="_blank">Get Directions</a>
     </div>
   </div>
 
